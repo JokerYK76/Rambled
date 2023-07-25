@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginDialog</class>
+ <widget class="QDialog" name="LoginDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑</family>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <widget class="QTabWidget" name="tw_input">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>230</width>
+        <height>380</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tb_login">
+       <attribute name="title">
+        <string>登录</string>
+       </attribute>
+       <widget class="QLabel" name="lb_tel_login">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>90</y>
+          <width>40</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>手机</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_tel_login">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>90</y>
+          <width>141</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>1370011001</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lb_pwd_login">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>170</y>
+          <width>40</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>密码</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_pwd_login">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>170</y>
+          <width>141</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>123456</string>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pb_login">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>280</y>
+          <width>55</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string> 登录</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pb_clear">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>280</y>
+          <width>55</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string> 清空</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tb_register">
+       <attribute name="title">
+        <string>注册</string>
+       </attribute>
+       <widget class="QPushButton" name="pb_confirm_register">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>280</y>
+          <width>55</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>注册</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lb_pwd_register">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>130</y>
+          <width>40</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>密码</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_pwd_register">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>130</y>
+          <width>141</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>123456</string>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_tel_register">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>70</y>
+          <width>141</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>13700110011</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pb_clear_register">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>280</y>
+          <width>55</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>清空</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lb_tel_register">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>70</y>
+          <width>40</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>手机</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lb_again_register">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>190</y>
+          <width>71</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string> 再次输入</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_again_register">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>190</y>
+          <width>141</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>123456</string>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_name_register">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>230</y>
+          <width>141</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string> 白</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lb_name_register">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>230</y>
+          <width>40</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string> 昵称</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
